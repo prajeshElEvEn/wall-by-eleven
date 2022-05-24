@@ -64,6 +64,9 @@
           align-items: center;
           justify-content: space-between;
           padding: 1rem;
+          .pc-title {
+            font-weight: 700;
+          }
           .pc-options {
             display: flex;
             gap: 1rem;
@@ -101,7 +104,6 @@
   }
   .navbar-container {
     .navbar {
-      padding: 1rem 1rem;
       .navbar-items {
         gap: 2rem;
       }
@@ -113,7 +115,7 @@
         .pc-card {
           width: 100%;
           .image1-pc {
-            height: 200px;
+            height: 300px;
           }
         }
       }
@@ -121,7 +123,6 @@
   }
   .footer-container {
     .footer {
-      padding: 1rem 1rem;
     }
   }
 }

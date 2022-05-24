@@ -10,7 +10,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className='text-copy'>
-                    &copy; {new Date().getFullYear()} WallByEleven
+                    &copy; {new Date().getFullYear()} ElEvEn Co. Ltd.
                 </div>
             </div>
         </div>
