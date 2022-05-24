@@ -10,10 +10,10 @@ const Navbar = () => {
                 </div>
                 <div className='navbar-items'>
                     <div className='navbar-item'>
-                        <Link to='/'>Desktop</Link>
+                        <Link to='/wall-by-eleven/'>Desktop</Link>
                     </div>
                     <div className='navbar-item'>
-                        <Link to='/mobile'>Mobile</Link>
+                        <Link to='/wall-by-eleven/mobile'>Mobile</Link>
                     </div>
                 </div>
             </div>
