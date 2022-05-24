@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/wall-by-eleven/static/css/main.47f9a542.css",
+    "main.js": "/wall-by-eleven/static/js/main.e4e3fdc0.js",
+    "static/media/wall1pc.png": "/wall-by-eleven/static/media/wall1pc.ee82bac30cd4c1f79004.png",
+    "index.html": "/wall-by-eleven/index.html",
+    "main.47f9a542.css.map": "/wall-by-eleven/static/css/main.47f9a542.css.map",
+    "main.e4e3fdc0.js.map": "/wall-by-eleven/static/js/main.e4e3fdc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47f9a542.css",
+    "static/js/main.e4e3fdc0.js"
+  ]
+}
