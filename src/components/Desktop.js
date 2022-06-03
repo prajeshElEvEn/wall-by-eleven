@@ -23,7 +23,7 @@ const Desktop = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='pc-card'>
+                    {/* <div className='pc-card'>
                         <div className='image1-pc'></div>
                         <div className='text-pc'>
                             <div className='pc-title'>
@@ -94,7 +94,7 @@ const Desktop = () => {
                                 </svg>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
