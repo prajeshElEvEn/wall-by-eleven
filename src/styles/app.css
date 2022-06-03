@@ -1,10 +1,5 @@
 .App {
-  width: 90vw;
   margin: 0 auto;
-}
-
-.navbar-container {
-  padding: 1rem 0;
 }
 
 .navbar-container .navbar {
@@ -18,10 +13,8 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem 2rem;
-  border-radius: 50px;
-  background: #e0e0e0;
-  -webkit-box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
-          box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+  background: #fff;
+  border-bottom: #e2e2e2 solid 1px;
 }
 
 .navbar-container .navbar .navbar-logo {
@@ -36,7 +29,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .navbar-container .navbar .navbar-items .navbar-item a {
@@ -46,7 +39,7 @@
 }
 
 .desktop-container {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .desktop-container .desktop {
@@ -67,9 +60,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .desktop-container .desktop .pc-card-container .pc-card {
@@ -81,10 +74,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 1rem;
-  background: #e0e0e0;
-  -webkit-box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
-          box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  background: #f2f3f5;
 }
 
 .desktop-container .desktop .pc-card-container .pc-card .image1-pc {
@@ -93,7 +85,7 @@
   background: url("../assets/images/wall1pc.png");
   background-size: cover;
   background-position: center;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .desktop-container .desktop .pc-card-container .pc-card .text-pc {
@@ -121,10 +113,85 @@
 }
 
 .footer-container {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .footer-container .footer {
+  background: #5500c5;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.footer-container .footer .footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .footer .footer-top .footer-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #dddddd;
+}
+
+.footer-container .footer .footer-top .footer-search-container {
+  padding: 2rem 0;
+}
+
+.footer-container .footer .footer-top .footer-search-container .footer-search {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.5rem;
+  width: 500px;
+}
+
+.footer-container .footer .footer-top .footer-search-container .footer-search .search-left {
+  padding: 0.4rem 0 0.4rem 1rem;
+}
+
+.footer-container .footer .footer-top .footer-search-container .footer-search .search-left svg {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.footer-container .footer .footer-top .footer-search-container .footer-search .search-right {
+  width: 100%;
+}
+
+.footer-container .footer .footer-top .footer-search-container .footer-search .search-right input {
+  border: none;
+  outline: none;
+  background: #fff;
+  padding: 0.5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  width: 92%;
+}
+
+.footer-container .footer .footer-top .footer-search-container .footer-search .search-right input:hover {
+  background: #f2f3f5;
+}
+
+.footer-container .footer .footer-top .footer-search-container .footer-search:hover {
+  background: #f2f3f5;
+}
+
+.footer-container .footer .footer-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,35 +201,52 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem 2rem;
-  border-radius: 50px;
-  background: #e0e0e0;
-  -webkit-box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
-          box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+  color: #fff;
 }
 
-.footer-container .footer .btn-github {
-  padding: 0.4rem 0;
+.footer-container .footer .footer-bottom .btn-github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.2rem;
 }
 
-.footer-container .footer .btn-github a {
+.footer-container .footer .footer-bottom .btn-github a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-weight: 700;
 }
 
-@media screen and (max-width: 768px) {
-  .App {
-    width: 96vw;
+@media screen and (max-width: 1280px) {
+  .desktop-container .desktop .pc-card-container .pc-card {
+    width: 32%;
   }
+}
+
+@media screen and (max-width: 768px) {
   .navbar-container .navbar .navbar-items {
-    gap: 2rem;
+    gap: 1rem;
   }
   .desktop-container .desktop .pc-card-container .pc-card {
     width: 100%;
   }
   .desktop-container .desktop .pc-card-container .pc-card .image1-pc {
-    height: 300px;
+    height: 250px;
+  }
+  .footer-container .footer {
+    padding: 1rem;
+  }
+  .footer-container .footer .footer-top {
+    width: 100%;
+  }
+  .footer-container .footer .footer-top .footer-search-container {
+    width: 100%;
+  }
+  .footer-container .footer .footer-top .footer-search-container .footer-search {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=app.css.map */
