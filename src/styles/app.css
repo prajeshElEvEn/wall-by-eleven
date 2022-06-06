@@ -12,7 +12,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   background: #fff;
   border-bottom: #e2e2e2 solid 1px;
 }
@@ -32,10 +32,24 @@
   gap: 2rem;
 }
 
+.navbar-container .navbar .navbar-items .navbar-item {
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.navbar-container .navbar .navbar-items .navbar-item:hover {
+  background-color: #f2f3f5;
+}
+
 .navbar-container .navbar .navbar-items .navbar-item a {
   text-decoration: none;
   color: #000;
   font-weight: 600;
+}
+
+.navbar-container .navbar .navbar-items .navbar-item a svg {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
 }
 
 .desktop-container {
@@ -110,6 +124,28 @@
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+}
+
+.user-container .user .back-nav-container {
+  border-bottom: #e2e2e2 solid 1px;
+  padding: 0.5rem 1rem;
+}
+
+.user-container .user .back-nav-container .back-nav a .back-box {
+  padding: 0.2rem 0.4rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+.user-container .user .back-nav-container .back-nav a .back-box:hover {
+  background-color: #f2f3f5;
+}
+
+.user-container .user .back-nav-container .back-nav a .back-box svg {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
 }
 
 .footer-container {

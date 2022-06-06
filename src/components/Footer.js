@@ -11,13 +11,12 @@ const Footer = () => {
                     <div className='footer-search-container'>
                         <div className='footer-search'>
                             <div className='search-left'>
-                                <svg width="28" height="28" fill="none" stroke="#949494" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.875 18.75a7.875 7.875 0 1 0 0-15.75 7.875 7.875 0 0 0 0 15.75Z"></path>
-                                    <path d="M16.443 16.445 21 21.002"></path>
+                                <svg width="27" height="27" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m21 21-6-6m2-5a7.001 7.001 0 0 1-11.95 4.95A7 7 0 1 1 17 10Z"></path>
                                 </svg>
                             </div>
                             <div className='search-right'>
-                                <input type='text' placeholder='What do you inspire for?' />
+                                <input type='text' placeholder='What do you aspire for?' />
                             </div>
                         </div>
                     </div>

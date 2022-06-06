@@ -5,8 +5,8 @@ Wallpaper.io website that has wallpapers self designed by ElEvEn.
 ## Resources
 
 - [ReactJS](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
 - [Iconer.app](https://iconer.app/)
-- [Neumorphism](https://neumorphism.io/#e0e0e0)
 
 ## Status
 
