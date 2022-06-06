@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Login from './Login'
 
 const User = () => {
     return (
@@ -16,6 +17,7 @@ const User = () => {
                         </Link>
                     </div>
                 </div>
+                <Login />
             </div>
         </div>
     )
