@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wall-by-eleven/static/css/main.d2477c3b.css",
-    "main.js": "/wall-by-eleven/static/js/main.936ee296.js",
+    "main.css": "/wall-by-eleven/static/css/main.060b18a4.css",
+    "main.js": "/wall-by-eleven/static/js/main.602548c3.js",
     "static/media/wall1pc.png": "/wall-by-eleven/static/media/wall1pc.ee82bac30cd4c1f79004.png",
     "index.html": "/wall-by-eleven/index.html",
-    "main.d2477c3b.css.map": "/wall-by-eleven/static/css/main.d2477c3b.css.map",
-    "main.936ee296.js.map": "/wall-by-eleven/static/js/main.936ee296.js.map"
+    "main.060b18a4.css.map": "/wall-by-eleven/static/css/main.060b18a4.css.map",
+    "main.602548c3.js.map": "/wall-by-eleven/static/js/main.602548c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2477c3b.css",
-    "static/js/main.936ee296.js"
+    "static/css/main.060b18a4.css",
+    "static/js/main.602548c3.js"
   ]
 }
