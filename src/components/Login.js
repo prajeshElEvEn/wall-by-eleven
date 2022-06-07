@@ -21,7 +21,7 @@ const Login = () => {
                 <div className='login-form-container'>
                     <div className='login-form'>
                         <div className='login-form-group'>
-                            <input type='email' placeholder='Email Id' />
+                            <input type='email' placeholder='example@gmail.com' />
                         </div>
                         <div className='login-form-group'>
                             <input type='password' placeholder='password' />
@@ -31,7 +31,7 @@ const Login = () => {
                         </div>
                     </div>
                     <div className='login-form-register'>
-                        But I don't have an account.
+                        But I don't have an account. &nbsp;
                         <Link to='/wall-by-eleven/register'>Register</Link>
                     </div>
                 </div>
