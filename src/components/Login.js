@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
@@ -17,7 +18,7 @@ const Login = () => {
                         or
                     </div>
                 </div>
-                <div className='login-email'>
+                <div className='login-form-container'>
                     <div className='login-form'>
                         <div className='login-form-group'>
                             <input type='email' placeholder='Email Id' />
@@ -28,6 +29,10 @@ const Login = () => {
                         <div className='login-form-btn'>
                             <input type='submit' value='Login' />
                         </div>
+                    </div>
+                    <div className='login-form-register'>
+                        But I don't have an account.
+                        <Link to='/wall-by-eleven/register'>Register</Link>
                     </div>
                 </div>
             </div>

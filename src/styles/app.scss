@@ -224,6 +224,42 @@
   }
 }
 
+.login-container {
+  height: 86vh;
+  .login {
+    height: 100%;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .login-google {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.6rem;
+      background-color: #f2f3f5;
+      width: 100%;
+      padding: 0.5rem 0;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      .login-google-logo {
+        svg {
+          transform: translateY(2px);
+        }
+      }
+    }
+    .or-container {
+      width: 100%;
+      .or {
+        background-color: #f2f3f5;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .App {
     // width: 96vw;

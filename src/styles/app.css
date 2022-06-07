@@ -262,6 +262,61 @@
   }
 }
 
+.login-container {
+  height: 86vh;
+}
+
+.login-container .login {
+  height: 100%;
+  width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.login-container .login .login-google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.6rem;
+  background-color: #f2f3f5;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.login-container .login .login-google .login-google-logo svg {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.login-container .login .or-container {
+  width: 100%;
+}
+
+.login-container .login .or-container .or {
+  background-color: #f2f3f5;
+}
+
 @media screen and (max-width: 768px) {
   .navbar-container .navbar .navbar-items {
     gap: 1rem;
